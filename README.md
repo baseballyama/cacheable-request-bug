@@ -31,7 +31,8 @@ No error comes.
 ## How to Fix it
 
 After change require to import statement.
-THen both `commonjs` and `ESNext` don't get error.
+Then both `commonjs` and `ESNext` don't get error.
+(But I couldn't pass tests of DefinitelyTyped...)
 
 ```diff
 // node_modules/@types/cacheable-request/index.d.ts
